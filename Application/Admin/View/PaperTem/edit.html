@@ -1,0 +1,126 @@
+<extend name="Public:layout" />
+<block name="body">
+    <span class="nowpage" style="display:none;">2</span>
+    <include file="Public:header" />
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 sidebar   ">
+                <include file="Public:left" />
+            </div>
+            <div class="col-md-10 col-md-offset-2 main">
+                <div class="container">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="raw" style="height:50px;padding-bottom:15px;border-bottom:2px solid rgb(209,211,212);">
+                                <div class="col-md-9" style="border-right: 2px solid rgb(209,211,212);font-size:22px;">
+                                    <span class="col-md-3" style="text-align:center;">模版名称:{$template['cname']}</span>
+                                    <span class="col-md-3" style="text-align:center;">题数:{$template['iPrbNum']}</span>
+                                    <span class="col-md-3" style="text-align:center;">总分:{$template['iTotScore']}</span>
+                                </div>
+                                <div class="col-md-3">
+                                    <button class="btn btn-warning" type="button" onclick="addprb({$template['']});" >添加题目</button>
+                                </div>
+                            </div>
+                            <div class="raw">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                        <th>编号</th>
+                                        <th>类型</th>
+                                        <th>章节</th>
+                                        <th>操作</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <foreach name="list" item="vo">
+                                        <tr>
+                                        <td>{$vo['iPrbNo']}</td>
+                                        <td>{$vo['typename']}</td>
+                                        <td>{$vo['chaname']}</td>
+                                        <td>
+                                            <button class="btn btn-link" onclick="location.href = '{:U();}';">删除</button>
+                                        </td>
+                                        </tr>
+                                        </foreach>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div><!-- /panel-body -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- /container -->
+    <div class="modal fade" id="addPrb" tabindex="-1" role="dialog" aria-labelledby="addPrblLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="addPrbLabel">向模版添加题目</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" role="form" action="{:U('PaperTem/addPrb')}" method="POST" id="addform">
+                    <input style="display:none;" name="temid" value="{$template['id']}" />
+                    <div class="form-group">
+                        <label for="sub" class="col-sm-2 control-label">章节</label>
+                        <div class="col-sm-10">
+                        <select id="cha" name="chaid" class="form-control" >
+                        </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="temname" class="col-sm-2 control-label">题型</label>
+                        <div class="col-sm-10">
+                        <select id="type" name="typeid" class="form-control" >
+                        </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="num" class="col-sm-2 control-label">数目</label>
+                        <div class="col-sm-10">
+                        <input type="text" class="form-control" id="num" name="num" placeholder="请输入添加数目">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="submit" class="btn btn-primary" form="addform" >确认添加</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+
+</block>
+
+<block name="js">
+    
+    <script>
+        function addprb(id){
+            $.ajax({
+                url:"{:U('PaperTem/getType')}",
+                success:function(data){
+                    $.each(data,function(i,item){
+                        var t = $("<option></option>");
+                        t.attr("value",item.id);
+                        t.text(item.cname);
+                        $("#type").append(t);
+                    });
+                }
+            });
+            $.ajax({
+                url:"{:U('PaperTem/getChapter')}",
+                data:{subid:id},
+                success:function(data){
+                    $.each(data,function(i,item){
+                        var t = $("<option></option>");
+                        t.attr("value",item.id);
+                        t.text(item.cname);
+                        $("#cha").append(t);
+                    });
+                }
+            });
+            $("#num").val("");
+            $("#addPrb").modal({});
+        }
+    </script>
+</block>

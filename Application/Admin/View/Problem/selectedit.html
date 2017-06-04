@@ -1,0 +1,142 @@
+<extend name="Public:layout" />
+<block name="body">
+    <span class="nowpage" style="display:none;">1</span>
+    <include file="Public:header" />
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 sidebar   ">
+                <include file="Public:left" />
+            </div>
+            <div class="col-md-10 col-md-offset-2 main">
+                <div class="container">
+                    <div class="raw">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="{:U("Problem/select")}">选择题</a></li>
+                            <li><a href="{:U("Problem/blank")}">填空题</a></li>
+                            <li><a href="{:U("Problem/judge")}">判断题</a></li>
+                            <li><a href="{:U("Problem/readCode")}">程序阅读题</a></li>
+                            <li><a href="{:U("Problem/code")}">代码补全题</a></li>
+                            <li><a href="{:U("Problem/wCode")}">编写程序题</a></li>
+                        </ul>
+                    </div>
+                    <div class="blank" style="height:30px;" ></div>
+                    <if condition="$op eq 0" >
+                        <div class="raw">
+                            <div class="col-md-8 col-md-offset-2">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">
+                                            详情
+                                        </h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <table class="table">
+                                        <tbody>
+                                            <tr><td>科目</td><td>{$prb['subName']}</td></tr>
+                                            <tr><td>章节</td><td>{$prb['chaName']}</td></tr>
+                                            <tr><td>题目</td><td>{$prb['ttitle']}</td></tr>
+                                            <tr><td>选项A</td><td>{$prb['citema']}</td></tr>
+                                            <tr><td>选项B</td><td>{$prb['citemb']}</td></tr>
+                                            <tr><td>选项C</td><td>{$prb['citemc']}</td></tr>
+                                            <tr><td>选项D</td><td>{$prb['citemd']}</td></tr>
+                                            <tr><td>正确答案</td><td>{$prb['icorrect']}</td></tr>
+                                            <tr><td>解析</td><td>{$prb['ckey']}</td></tr>
+                                        </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="raw">
+                            <div class="col-md-8 col-md-offset-2">
+                                <button type="button" class="btn btn-warning" onclick="location.href='{:U("Problem/select")}'">返回</button>
+                            </div>
+                        </div>
+                    <else />
+                        <div class="raw">
+                            <div class="col-md-8 col-md-offset-2">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">
+                                            修改
+                                        </h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <form class="form-horizontal" role="form" id="thisform" action="{:U('Problem/setSelect',array('id'=>$prb['id']))}" method="POST">
+                                            <div class="form-group">
+                                                <label class="col-md-2 control-label">编号</label>
+                                                <div class="col-md-10">
+                                                    <input name="id" value="{$prb['id']}" disabled="disabled" />
+                                                </div>
+                                            </div>
+                                            <input type="text"  name="subid" value="{$prb['isubid']}" />
+                                            <input type="text"  name="chaid" value="{$prb['ichaid']}" />
+                                            <div class="form-group">
+                                                <label class="col-md-2 control-label">题目</label>
+                                                <div class="col-md-10">
+                                                <textarea  name="title" cols="75" rows="4" placeholder="请输入题目..." wrap="hard">{$prb['ttitle']}</textarea>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-md-2 control-label">选项A</label>
+                                                <div class="col-md-10">
+                                                    <input type="text" name="itema" value="{$prb['citema']}" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-md-2 control-label">选项B</label>
+                                                <div class="col-md-10">
+                                                    <input type="text" name="itemb" value="{$prb['citemb']}" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-md-2 control-label">选项C</label>
+                                                <div class="col-md-10">
+                                                    <input type="text" name="itemc" value="{$prb['citemc']}" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-md-2 control-label">选项D</label>
+                                                <div class="col-md-10">
+                                                    <input type="text" name="itemd" value="{$prb['citemd']}" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-md-2 control-label">正确答案</label>
+                                                <div class="col-md-10">
+                                                    <select class="form-control" name="correct">
+                                                        <option value="0">选项A</option>
+                                                        <option value="1">选项B</option>
+                                                        <option value="2">选项C</option>
+                                                        <option value="3">选项D</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-md-2 control-label">解析</label>
+                                                <div class="col-md-10">
+                                                    <input type="text" name="key" value="{$prb['ckey']}" />
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="raw">
+                            <div class="col-md-8 col-md-offset-2">
+                                <button type="submit" class="btn btn-warning" form="thisform">确定</button>
+                                <button type="button" class="btn btn-warning" onclick="location.href='{:U("Problem/select")}'">返回</button>
+                            </div>
+                        </div>
+                    </if>
+                </div>
+            </div>
+        </div>
+    </div> <!-- /container -->
+
+
+</block>
+
+<block name="js">
+    

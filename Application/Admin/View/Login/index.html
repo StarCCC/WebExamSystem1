@@ -1,0 +1,27 @@
+<extend name="Public:layout" />
+<block name="body">
+    <load href="__PUBLIC__/css/Admin/signin.css" />
+    <include file="Public:header" />
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 main">
+                <form class="form-signin"  >
+                    <h2 class="form-signin-heading">请登录</h2>
+                    <div class="message" >message</div>
+                    <label for="inputEmail" class="sr-only">管理员账户名</label>
+                    <input name="user_name" type="text" id="inputEmail" class="form-control" placeholder="管理员账户名" required autofocus>
+                    <label for="inputPassword" class="sr-only">密码</label>
+                    <input name="pwd" type="password" id="inputPassword" class="form-control" placeholder="密码" required>
+                    
+                    <button class="btn btn-lg btn-primary btn-block btn_login">登陆</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</block>
+
+<block name="js">
+    <!--这里放js-->
+    <load href="__PUBLIC__/js/Admin/Login/login.js" />
+</block>

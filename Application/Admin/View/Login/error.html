@@ -1,0 +1,22 @@
+<extend name="Public:layout" />
+<block name="body">
+    <include file="Public:header" />
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12  main">
+                <div class="center-block" style="width:325px;">
+                    <p class="text-muted center-block" >您没有管理员权限，请单击以下按钮登陆为管理员。</p>
+                    <button type="button" class="btn btn-success center-block" onclick="location.href = '{:U('Login/index')}'">登陆</button>
+                </div>
+            </div>
+        </div>
+        
+    </div> <!-- /container -->
+
+
+</block>
+
+<block name="js">
+    
+
+</block>

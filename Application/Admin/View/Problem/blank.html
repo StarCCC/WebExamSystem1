@@ -1,0 +1,101 @@
+<extend name="Public:layout" />
+<block name="body">
+    <span class="nowpage" style="display:none;">1</span>
+    <include file="Public:header" />
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 sidebar   ">
+                <include file="Public:left" />
+            </div>
+            <div class="col-md-10 col-md-offset-2 main">
+                <div class="container">
+                    <div class="raw">
+                        <ul class="nav nav-tabs">
+                            <li><a href="{:U("Problem/select")}">选择题</a></li>
+                            <li class="active"><a href="{:U("Problem/blank")}">填空题</a></li>
+                            <li><a href="{:U("Problem/judge")}">判断题</a></li>
+                            <li><a href="{:U("Problem/readCode")}">程序阅读题</a></li>
+                            <li><a href="{:U("Problem/code")}">代码补全题</a></li>
+                            <li><a href="{:U("Problem/wCode")}">编写程序题</a></li>
+                        </ul>
+                    </div>
+                    <div class="blank" style="height:30px;" ></div>
+                    <div class="raw">
+                        <div class="col-md-4 no-padding">
+                            <form class="bs-example bs-example-form" role="form">
+                                <div class="form-group">
+                                    <div class="input-group ">
+                                        <span class="input-group-addon">搜索:</span>
+                                        <input type="text" class="form-control" placeholder="请输入关键字..." id="search">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-8 no-padding">
+                            <div class="btn-group pull-right">
+                                <button type="button" class="btn btn-warning" onclick="location.href='{:U("Problem/blankadd")}'">
+                                    <span class="glyphicon glyphicon-plus" style="color: rgb(255, 255, 255);"></span>新增
+                                </button>
+                                <button type="button" class="btn btn-default">批量删除</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="raw">
+                        <table class="table table-hover table-striped">
+                            <caption></caption>
+                            <thead>
+                                <tr>
+                                <th><input type="checkbox" name="total" /> </th>
+                                <th>编号</th>
+                                <th>科目</th>
+                                <th>章节</th>
+                                <th>题目内容</th>
+                                <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <foreach name="list" item="vo"  >
+                                <tr>
+                                <td><input type="checkbox" name="{$vo['id']}" /> </td>
+                                <td>{$vo['id']}</td>
+                                <td>{$vo['subname']}</td>
+                                <td>{$vo['capname']}</td>
+                                <td>{$vo['ttitle']|abbrStr}</td>
+                                <td>
+                                    <ul class="list-inline">
+                                    <li><a href="{:U('Problem/blankedit',array('id'=>$vo['id'],'op'=>0))}">详情</a></li>
+                                    <li><a href="{:U('Problem/blankedit',array('id'=>$vo['id'],'op'=>1))}">修改</a></li>
+                                    <li><a href="{:U('Problem/delBlank',array('id'=>$vo['id']))}">删除</a></li>
+                                    </ul>
+                                </td>
+                                </tr>
+                                </foreach>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="blank" style="height:20px;" ></div>
+                    <div class="raw">
+                        <button type="button" class="btn btn-warning" onclick="location.href='{:U('Problem/blank',array('pageNum'=>1))}'">首&nbsp&nbsp页</button>
+                        <if condition="$nowpage gt 1">
+                        <button type="button" class="btn btn-warning" onclick="location.href='{:U('Problem/blank',array('pageNum'=>$nowpage-1))}'">上一页</button>
+                        <else />
+                        <button type="button" class="btn btn-warning" disabled="disabled">上一页</button>
+                        </if>
+                        <if condition="$nowpage lt $total">
+                        <button type="button" class="btn btn-warning" onclick="location.href='{:U('Problem/blank',array('pageNum'=>$nowpage+1))}'">下一页</button>
+                        <else />
+                        <button type="button" class="btn btn-warning" disabled="disabled">下一页</button>
+                        </if>
+                        <button type="button" class="btn btn-warning" onclick="location.href='{:U('Problem/blank',array('pageNum'=>$total))}'">末&nbsp&nbsp页</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div> <!-- /container -->
+
+
+</block>
+
+<block name="js">
+    

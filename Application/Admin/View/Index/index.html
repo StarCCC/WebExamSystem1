@@ -1,0 +1,61 @@
+<extend name="Public:layout" />
+<block name="body">
+    <include file="Public:header" />
+    <span class="nowpage" style="display:none;">0</span>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 sidebar   ">
+                <include file="Public:left" />
+            </div>
+            <div class="col-md-10 col-md-offset-2 main">
+                <div class="container">
+                    
+                    <div class="raw">
+                        <div class="col-md-6" >
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">题型总览</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="center-block" style="text-align:center;">
+                                        <p>题库中共<span style="text-emphasis">{$count[0] | default = 0}</span>道题</p>
+                                        <p>选择题<span style="text-emphasis">{$count[1] | default = 0}</span>道</p>
+                                        <p>填空题<span style="text-emphasis">{$count[2] | default = 0}</span>道</p>
+                                        <p>判断题<span style="text-emphasis">{$count[3] | default = 0}</span>道</p>
+                                        <p>程序阅读题<span style="text-emphasis">{$count[4] | default = 0}</span>道</p>
+                                        <p>代码补全题<span style="text-emphasis">{$count[5] | default = 0}</span>道</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6" >
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">科目总览</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="center-block" style="text-align:center;">
+                                        <foreach name="subjects" item="sub" >
+                                            <p>{$key}、 <span>{$sub['name'] | default = 无名称}</span>
+                                            ，本科目共有<span>{$sub['temNum'] | default = 0}</span>
+                                            个模版
+                                            </p>
+                                        </foreach>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div> <!-- /container -->
+
+
+</block>
+
+<block name="js">
+    
+
+</block>
