@@ -52,11 +52,11 @@
                 <div class="container">
                     <div class="raw">
                         <ul class="nav nav-tabs">
-                            <li class="active"><a href="<?php echo U("Problem/select");?>">选择题</a></li>
+                            <li><a href="<?php echo U("Problem/select");?>">选择题</a></li>
                             <li><a href="<?php echo U("Problem/blank");?>">填空题</a></li>
                             <li><a href="<?php echo U("Problem/judge");?>">判断题</a></li>
                             <li><a href="<?php echo U("Problem/readCode");?>">程序阅读题</a></li>
-                            <li><a href="<?php echo U("Problem/code");?>">代码补全题</a></li>
+                            <li class="active"><a href="<?php echo U("Problem/code");?>">代码补全题</a></li>
                             <li><a href="<?php echo U("Problem/wCode");?>">编写程序题</a></li>
                         </ul>
                     </div>
@@ -74,7 +74,7 @@
                         </div>
                         <div class="col-md-8 no-padding">
                             <div class="btn-group pull-right">
-                                <button type="button" class="btn btn-warning" onclick="location.href='<?php echo U("Problem/selectadd");?>'">
+                                <button type="button" class="btn btn-warning" onclick="location.href='<?php echo U("Problem/codeadd");?>'">
                                     <span class="glyphicon glyphicon-plus" style="color: rgb(255, 255, 255);"></span>新增
                                 </button>
                                 <button type="button" class="btn btn-default">批量删除</button>
@@ -103,9 +103,9 @@
                                 <td><?php echo (abbrStr($vo['ttitle'])); ?></td>
                                 <td>
                                     <ul class="list-inline">
-                                    <li><a href="<?php echo U('Problem/selectedit',array('id'=>$vo['id'],'op'=>0));?>">详情</a></li>
-                                    <li><a href="<?php echo U('Problem/selectedit',array('id'=>$vo['id'],'op'=>1));?>">修改</a></li>
-                                    <li><a href="<?php echo U('Problem/delSelect',array('id'=>$vo['id']));?>">删除</a></li>
+                                    <li><a href="<?php echo U('Problem/codeedit',array('id'=>$vo['id'],'op'=>0));?>">详情</a></li>
+                                    <li><a href="<?php echo U('Problem/codeedit',array('id'=>$vo['id'],'op'=>1));?>">修改</a></li>
+                                    <li><a href="<?php echo U('Problem/delCode',array('id'=>$vo['id']));?>">删除</a></li>
                                     </ul>
                                 </td>
                                 </tr><?php endforeach; endif; ?>
@@ -114,14 +114,14 @@
                     </div>
                     <div class="blank" style="height:20px;" ></div>
                     <div class="raw">
-                        <button type="button" class="btn btn-warning" onclick="location.href='<?php echo U('Problem/select',array('pageNum'=>1));?>'">首&nbsp&nbsp页</button>
-                        <?php if($nowpage > 1): ?><button type="button" class="btn btn-warning" onclick="location.href='<?php echo U('Problem/select',array('pageNum'=>$nowpage-1));?>'">上一页</button>
+                        <button type="button" class="btn btn-warning" onclick="location.href='<?php echo U('Problem/code',array('pageNum'=>1));?>'">首&nbsp&nbsp页</button>
+                        <?php if($nowpage > 1): ?><button type="button" class="btn btn-warning" onclick="location.href='<?php echo U('Problem/code',array('pageNum'=>$nowpage-1));?>'">上一页</button>
                         <?php else: ?>
                         <button type="button" class="btn btn-warning" disabled="disabled">上一页</button><?php endif; ?>
-                        <?php if($nowpage < $total): ?><button type="button" class="btn btn-warning" onclick="location.href='<?php echo U('Problem/select',array('pageNum'=>$nowpage+1));?>'">下一页</button>
+                        <?php if($nowpage < $total): ?><button type="button" class="btn btn-warning" onclick="location.href='<?php echo U('Problem/code',array('pageNum'=>$nowpage+1));?>'">下一页</button>
                         <?php else: ?>
                         <button type="button" class="btn btn-warning" disabled="disabled">下一页</button><?php endif; ?>
-                        <button type="button" class="btn btn-warning" onclick="location.href='<?php echo U('Problem/select',array('pageNum'=>$total));?>'">末&nbsp&nbsp页</button>
+                        <button type="button" class="btn btn-warning" onclick="location.href='<?php echo U('Problem/code',array('pageNum'=>$total));?>'">末&nbsp&nbsp页</button>
                     </div>
                 </div>
             </div>

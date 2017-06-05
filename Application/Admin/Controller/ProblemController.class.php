@@ -467,7 +467,7 @@ class ProblemController extends BaseController {
             $data['id'] = $id;
             $P->editPCode($data);
         }
-            
+        
         //dump($data);
         //$this->display('test');
         $this->redirect('Problem/code');

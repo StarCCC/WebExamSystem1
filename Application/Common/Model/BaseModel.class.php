@@ -30,4 +30,19 @@
             }
             return true;
         }
+
+        /**
+         * 通用的分页方法
+         * $list为待分页数据，$num为每页记录数目
+         */
+        public function paging($list, $num){
+            $i = 1;
+            foreach($list as $k1 => $row){
+                foreach($row as $key => $col){
+                    $page[ceil($i / $num)][$k1][$key] = $list[$k1][$key];
+                }
+                $i++;
+            }   
+            return $page; 
+        }
     }

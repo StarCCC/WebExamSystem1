@@ -20,7 +20,7 @@
   </head>
   <body>
     
-    <span class="nowpage" style="display:none;">1</span>
+    <span class="nowpage" style="display:none;">2</span>
     <nav class="navbar navbar-inverse ">
     <div class="container-fluid">
         <div class="navbar-header" style="width:100%;">
@@ -51,17 +51,6 @@
             <div class="col-md-10 col-md-offset-2 main">
                 <div class="container">
                     <div class="raw">
-                        <ul class="nav nav-tabs">
-                            <li class="active"><a href="<?php echo U("Problem/select");?>">选择题</a></li>
-                            <li><a href="<?php echo U("Problem/blank");?>">填空题</a></li>
-                            <li><a href="<?php echo U("Problem/judge");?>">判断题</a></li>
-                            <li><a href="<?php echo U("Problem/readCode");?>">程序阅读题</a></li>
-                            <li><a href="<?php echo U("Problem/code");?>">代码补全题</a></li>
-                            <li><a href="<?php echo U("Problem/wCode");?>">编写程序题</a></li>
-                        </ul>
-                    </div>
-                    <div class="blank" style="height:30px;" ></div>
-                    <div class="raw">
                         <div class="col-md-4 no-padding">
                             <form class="bs-example bs-example-form" role="form">
                                 <div class="form-group">
@@ -74,7 +63,7 @@
                         </div>
                         <div class="col-md-8 no-padding">
                             <div class="btn-group pull-right">
-                                <button type="button" class="btn btn-warning" onclick="location.href='<?php echo U("Problem/selectadd");?>'">
+                                <button type="button" class="btn btn-primary btn-warning" data-toggle="modal" data-target="#addModel">
                                     <span class="glyphicon glyphicon-plus" style="color: rgb(255, 255, 255);"></span>新增
                                 </button>
                                 <button type="button" class="btn btn-default">批量删除</button>
@@ -89,8 +78,9 @@
                                 <th><input type="checkbox" name="total" /> </th>
                                 <th>编号</th>
                                 <th>科目</th>
-                                <th>章节</th>
-                                <th>题目内容</th>
+                                <th>模版名称</th>
+                                <th>题量</th>
+                                <th>总分</th>
                                 <th>操作</th>
                                 </tr>
                             </thead>
@@ -99,13 +89,13 @@
                                 <td><input type="checkbox" name="<?php echo ($vo['id']); ?>" /> </td>
                                 <td><?php echo ($vo['id']); ?></td>
                                 <td><?php echo ($vo['subname']); ?></td>
-                                <td><?php echo ($vo['capname']); ?></td>
-                                <td><?php echo (abbrStr($vo['ttitle'])); ?></td>
+                                <td><?php echo ($vo['ctemname']); ?></td>
+                                <td><?php echo ($vo['iprbnum']); ?></td>
+                                <td><?php echo ($vo['itotscore']); ?></td>
                                 <td>
                                     <ul class="list-inline">
-                                    <li><a href="<?php echo U('Problem/selectedit',array('id'=>$vo['id'],'op'=>0));?>">详情</a></li>
-                                    <li><a href="<?php echo U('Problem/selectedit',array('id'=>$vo['id'],'op'=>1));?>">修改</a></li>
-                                    <li><a href="<?php echo U('Problem/delSelect',array('id'=>$vo['id']));?>">删除</a></li>
+                                    <li><a href="<?php echo U('PaperTem/edit',array('id'=>$vo['id']));?>">修改模版</a></li>
+                                    <li><a href="<?php echo U('PaperTem/delete',array('id'=>$vo['id']));?>">删除</a></li>
                                     </ul>
                                 </td>
                                 </tr><?php endforeach; endif; ?>
@@ -114,17 +104,57 @@
                     </div>
                     <div class="blank" style="height:20px;" ></div>
                     <div class="raw">
-                        <button type="button" class="btn btn-warning" onclick="location.href='<?php echo U('Problem/select',array('pageNum'=>1));?>'">首&nbsp&nbsp页</button>
-                        <?php if($nowpage > 1): ?><button type="button" class="btn btn-warning" onclick="location.href='<?php echo U('Problem/select',array('pageNum'=>$nowpage-1));?>'">上一页</button>
+                        <button type="button" class="btn btn-warning" onclick="location.href='<?php echo U('PaperTem/index',array('pageNum'=>1));?>'">首&nbsp&nbsp页</button>
+                        <?php if($nowpage > 1): ?><button type="button" class="btn btn-warning" onclick="location.href='<?php echo U('PaperTem/index',array('pageNum'=>$nowpage-1));?>'">上一页</button>
                         <?php else: ?>
                         <button type="button" class="btn btn-warning" disabled="disabled">上一页</button><?php endif; ?>
-                        <?php if($nowpage < $total): ?><button type="button" class="btn btn-warning" onclick="location.href='<?php echo U('Problem/select',array('pageNum'=>$nowpage+1));?>'">下一页</button>
+                        <?php if($nowpage < $total): ?><button type="button" class="btn btn-warning" onclick="location.href='<?php echo U('PaperTem/index',array('pageNum'=>$nowpage+1));?>'">下一页</button>
                         <?php else: ?>
                         <button type="button" class="btn btn-warning" disabled="disabled">下一页</button><?php endif; ?>
-                        <button type="button" class="btn btn-warning" onclick="location.href='<?php echo U('Problem/select',array('pageNum'=>$total));?>'">末&nbsp&nbsp页</button>
+                        <button type="button" class="btn btn-warning" onclick="location.href='<?php echo U('PaperTem/index',array('pageNum'=>$total));?>'">末&nbsp&nbsp页</button>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="modal fade" id="addModel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="myModalLabel">添加试卷模版</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form class="form-horizontal" role="form" action="<?php echo U('PaperTem/addTem');?>" method="POST" id="addform">
+                            
+                            <div class="form-group">
+                                <label for="sub" class="col-sm-2 control-label">科目</label>
+                                <div class="col-sm-10">
+                                <select id="sub" name="subid" class="form-control" >
+                                    <?php if(is_array($subjects)): foreach($subjects as $key=>$sub): ?><option value="<?php echo ($sub['id']); ?>"><?php echo ($sub['cname']); ?></option><?php endforeach; endif; ?>
+                                </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="temname" class="col-sm-2 control-label">模版名称</label>
+                                <div class="col-sm-10">
+                                <input type="text" class="form-control" id="temname" name="temname" placeholder="请输入模版名称">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="remark" class="col-sm-2 control-label">备注</label>
+                                <div class="col-sm-10">
+                                <input type="text" class="form-control" id="remark" name="remark" placeholder="备注可以没有">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                        <button type="submit" class="btn btn-primary" form="addform">确认添加</button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal -->
+
         </div>
         
     </div> <!-- /container -->
@@ -144,5 +174,8 @@
     <script type="text/javascript" src="/WebExamSystem1/Public/js/Admin/public.js"></script>
 
     
+    
+
+
     </body>
 </html>

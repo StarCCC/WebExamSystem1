@@ -4,12 +4,13 @@
     class PaptemplateModel extends BaseModel {
 
         //获取试卷模版列表
-        public function getPapTemList(){
+        public function getPapTemList($pagenum){
             $res = $this->select();
             foreach($res as $key=>$vo){
                 $res[$key]['subname'] = M("Subject")->where(array('id'=>$vo['isubid']))->select()[0]['cname'];
             }
-            return $res;
+            $page = $this->paging($res,20);
+            return $page[$pagenum];
         }
 
         //删除模版
