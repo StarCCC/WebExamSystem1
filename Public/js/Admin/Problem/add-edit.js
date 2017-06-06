@@ -7,7 +7,7 @@ function setChapter(sel_sub){
     //alert(subid);
     $.ajax({
         type: "POST",
-        url: "/exam/index.php/Admin/Problem/getAllChapter",
+        url: "/WebExamSystem1/index.php/Admin/Problem/getAllChapter",
         //data: {'prb_type':""+prbtype,'prb_no':""+prbno},
         data: {},
         //dataType: 'json',  

@@ -21,6 +21,11 @@ class BaseController extends Controller {
     }
 
     public function getType(){
-        $this->ajaxReturn(M("Prbtype")->select());
+        $this->ajaxReturn(D("Problem")->getAllTypes());
+    }
+
+    public function getChapter(){
+        $subid = I("post.subid");
+        $this->ajaxReturn(D("Problem")->getAllChaptersBySubid($subid));
     }
 }

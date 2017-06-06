@@ -9,8 +9,8 @@
 
     <!-- Bootstrap -->
     <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
-    <link rel="stylesheet" type="text/css" href="/WebExamSystem/Public/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="/WebExamSystem/Public/css/Admin/public.css" />
+    <link rel="stylesheet" type="text/css" href="/WebExamSystem1/Public/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/WebExamSystem1/Public/css/Admin/public.css" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -96,14 +96,14 @@
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!--<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>-->
-    <script type="text/javascript" src="/WebExamSystem/Public/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="/WebExamSystem1/Public/jquery-3.1.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!--<script src="js/bootstrap.min.js"></script>-->
-    <script type="text/javascript" src="/WebExamSystem/Public/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/WebExamSystem1/Public/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     <!--在这里引入angularjs框架-->
-    <script type="text/javascript" src="/WebExamSystem/Public/angular-1.6.2/angular.min.js"></script>
+    <script type="text/javascript" src="/WebExamSystem1/Public/angular-1.6.2/angular.min.js"></script>
     <!--在这里引入公共js文件-->
-    <script type="text/javascript" src="/WebExamSystem/Public/js/Admin/public.js"></script>
+    <script type="text/javascript" src="/WebExamSystem1/Public/js/Admin/public.js"></script>
 
     
     

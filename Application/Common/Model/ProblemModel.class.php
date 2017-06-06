@@ -190,6 +190,13 @@ class ProblemModel {
             return $res[0][cname];
         }
     }
+    //根据id查询题型
+    public function getTypnameById($id){
+        $res = M('Prbtype')->where(array('id'=>$id))->select();
+        if (!empty($res)) {
+            return $res[0][cname];
+        }
+    }
     //返回所有科目
     public function getAllSubjects(){
         $res = M('Subject')->select();
@@ -200,6 +207,20 @@ class ProblemModel {
     //返回所有章节
     public function getAllChapters(){
         $res = M('Chapter')->select();
+        if (!empty($res)) {
+            return $res;
+        }
+    }
+    //返回所有类型
+    public function getAllTypes(){
+        $res = M('Prbtype')->select();
+        if (!empty($res)) {
+            return $res;
+        }
+    }
+    //根据科目id查找章节
+    public function getAllChaptersBySubid($subid){
+        $res = M('Chapter')->where(array("iSubid"=>$subid))->select();
         if (!empty($res)) {
             return $res;
         }

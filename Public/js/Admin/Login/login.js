@@ -2,20 +2,20 @@ $(function() {
     $(".btn_login").click(function(){
         var user_name = $("input[name=user_name]").val();
         var pwd = $("input[name=pwd]").val();
-        alert(user_name + "  " + pwd);
+        //alert(user_name + "  " + pwd);
         // $.post("/exam/index.php/Admin/Login/login",{name:user_name, pwd:pwd},
         // function(data){
         //     alert(data.message);
         // },JSON);
         $.ajax({
 			type: "POST",
-			url: "/exam/index.php/Admin/Login/login",
+			url: "/WebExamSystem1/index.php/Admin/Login/login",
 			//data: {'prb_type':""+prbtype,'prb_no':""+prbno},
 			data: {name:user_name, pwd:pwd},
 			//dataType: 'json',  
 			success: function(data) {
                 if (data.status == 0) {
-                    location.href = "/exam/index.php/Admin/Index/index";
+                    location.href = "/WebExamSystem1/index.php/Admin/Index/index";
                 } else {
                     var mes = $(".message");
                     mes.text(data.message);
