@@ -19,7 +19,9 @@ class BaseController extends Controller {
         $data["welcome"] = $name . "，欢迎您！";
         return $data;
     }
-
+    public function getSub(){
+        $this->ajaxReturn(D("Problem")->getAllSubjects());
+    }
     public function getType(){
         $this->ajaxReturn(D("Problem")->getAllTypes());
     }

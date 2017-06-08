@@ -1,0 +1,56 @@
+<load href="__PUBLIC__/css/header.css" />
+<div class="container-fluid" style="padding-right: 0px;padding-left: 0px;background-color:rgb(248,248,248);">
+    <div class="raw" style="background-color:#f5f5f5;border:1px solid rgb(227,227,229);">
+        <div class="container">
+            <div class="raw">
+                <div class="col-md-12">
+                    <ol class="breadcrumb pull-right" style="margin-bottom:0px;">
+                        <li>{$user['welcome']}</li>
+                        <li><a href="{:U('Home/Login/logout')}">退出</a></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="raw">
+        <div class="container">
+            <div class="raw">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="input-group" style="margin:60px 0px;font-size:20px;">
+                        <form action="{:U('Index/search')}" method="POST" id="sform">
+                        </form>
+                        <input type="text" class="form-control" style="border-color:black;"  name="key" form="sform" >
+                        <span class="input-group-btn" >
+                            <button class="btn btn-default" type="submit" form="sform" style="border-color:black; background-color:black;color:white"><span class="glyphicon glyphicon-search"></span>&nbsp搜&nbsp索</button>
+                        </span>
+                        
+                    </div><!-- /input-group -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="raw" style="border-bottom:2px solid black;">
+        <div class="container">
+            <div class="raw">
+                <div class="col-md-12" style="padding-right: 0px;padding-left: 0px;">
+                    <nav class="navbar navbar-default" role="navigation" style="margin-bottom: 0px;background-color:rgb(248,248,248);border:0px;">
+                        <div class="navbar-header" style="background-color: black;">
+                            <a class="navbar-brand" href="{:U('Index/slist')}" style="color:white;">全部服务分类</a>
+                        </div>
+                        <div>
+                            <ul class="nav navbar-nav" style="font-weight:900;color:black;">
+                                <li><a href="{:U('Index/index')}#1">外语</a></li>
+                                <li><a href="{:U('Index/index')}#2">运动</a></li>
+                                <li><a href="{:U('Index/index')}#3">美食</a></li>
+                                <li><a href="{:U('Index/index')}#4">穿搭</a></li>
+                                <li><a href="{:U('Index/index')}#5">计算机</a></li>
+                                <li><a href="{:U('Index/index')}#6">职场</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>

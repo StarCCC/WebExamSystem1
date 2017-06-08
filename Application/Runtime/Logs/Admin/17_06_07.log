@@ -1,0 +1,675 @@
+[ 2017-06-07T14:44:29+08:00 ] ::1 /WebExamSystem1/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = null  [ RunTime:0.0006s ]
+
+[ 2017-06-07T14:44:29+08:00 ] ::1 /WebExamSystem1/index.php/Admin/Login/error.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+NOTIC: [2048] Declaration of Admin\Controller\LoginController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\Program\wamp\www\WebExamSystem1\Application\Admin\Controller\LoginController.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.014535s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.014656s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2017-06-07T14:45:06+08:00 ] ::1 /WebExamSystem1/index.php/Admin/Login/error.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+NOTIC: [2048] Declaration of Admin\Controller\LoginController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\Program\wamp\www\WebExamSystem1\Application\Admin\Controller\LoginController.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2017-06-07T14:45:07+08:00 ] ::1 /WebExamSystem1/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+NOTIC: [2048] Declaration of Admin\Controller\LoginController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\Program\wamp\www\WebExamSystem1\Application\Admin\Controller\LoginController.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2017-06-07T14:45:12+08:00 ] ::1 /WebExamSystem1/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+NOTIC: [2048] Declaration of Admin\Controller\LoginController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\Program\wamp\www\WebExamSystem1\Application\Admin\Controller\LoginController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `ex_user`  [ RunTime:0.0111s ]
+SQL: SELECT * FROM `ex_user`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ex_user`  [ RunTime:0.0002s ]
+
+[ 2017-06-07T14:45:13+08:00 ] ::1 /WebExamSystem1/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 1  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `ex_pjudge` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ex_preadcode` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `ex_pcode` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `ex_pwcode` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `ex_pselect`  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ex_pfillblank`  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ex_pjudge`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ex_preadcode`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ex_pcode`  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: subjects F:\Program\wamp\www\WebExamSystem1\Application\Admin\Controller\IndexController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2017-06-07T14:45:26+08:00 ] ::1 /WebExamSystem1/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `ex_pjudge` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `ex_preadcode` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ex_pcode` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `ex_pwcode` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ex_pselect`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ex_pfillblank`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ex_pjudge`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ex_preadcode`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ex_pcode`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: subjects F:\Program\wamp\www\WebExamSystem1\Application\Admin\Controller\IndexController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2017-06-07T14:49:24+08:00 ] ::1 /WebExamSystem1/index.php/Admin/Problem/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 1  [ RunTime:0.0002s ]
+SQL: select a.id,b.cName as subName,c.cName as capName,a.tTitle from ex_pselect as a,ex_subject as b, ex_chapter as c where a.iSubid = b.id and a.iChaid = c.id; [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `ex_pjudge` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `ex_preadcode` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `ex_pcode` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ex_pwcode` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ex_pselect`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000421s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2017-06-07T14:49:35+08:00 ] ::1 /WebExamSystem1/index.php/Admin/Problem/select/pageNum/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 1  [ RunTime:0.0002s ]
+SQL: select a.id,b.cName as subName,c.cName as capName,a.tTitle from ex_pselect as a,ex_subject as b, ex_chapter as c where a.iSubid = b.id and a.iChaid = c.id; [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 22 F:\Program\wamp\www\WebExamSystem1\Application\Admin\Controller\ProblemController.class.php 第 190 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `ex_pjudge` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `ex_preadcode` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `ex_pcode` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `ex_pwcode` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ex_pselect`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2017-06-07T14:49:36+08:00 ] ::1 /WebExamSystem1/index.php/Admin/Problem/select/pageNum/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: select a.id,b.cName as subName,c.cName as capName,a.tTitle from ex_pselect as a,ex_subject as b, ex_chapter as c where a.iSubid = b.id and a.iChaid = c.id; [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `ex_pjudge` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `ex_preadcode` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `ex_pcode` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `ex_pwcode` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `ex_pselect`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2017-06-07T14:49:39+08:00 ] ::1 /WebExamSystem1/index.php/Admin/Problem/select/pageNum/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 1  [ RunTime:0.0002s ]
+SQL: select a.id,b.cName as subName,c.cName as capName,a.tTitle from ex_pselect as a,ex_subject as b, ex_chapter as c where a.iSubid = b.id and a.iChaid = c.id; [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 22 F:\Program\wamp\www\WebExamSystem1\Application\Admin\Controller\ProblemController.class.php 第 190 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `ex_pjudge` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `ex_preadcode` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `ex_pcode` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `ex_pwcode` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `ex_pselect`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2017-06-07T14:49:41+08:00 ] ::1 /WebExamSystem1/index.php/Admin/Problem/select/pageNum/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: select a.id,b.cName as subName,c.cName as capName,a.tTitle from ex_pselect as a,ex_subject as b, ex_chapter as c where a.iSubid = b.id and a.iChaid = c.id; [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `ex_pjudge` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `ex_preadcode` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `ex_pcode` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `ex_pwcode` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ex_pselect`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000664s ]
+
+[ 2017-06-07T14:49:43+08:00 ] ::1 /WebExamSystem1/index.php/Admin/Problem/select/pageNum/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 1  [ RunTime:0.0002s ]
+SQL: select a.id,b.cName as subName,c.cName as capName,a.tTitle from ex_pselect as a,ex_subject as b, ex_chapter as c where a.iSubid = b.id and a.iChaid = c.id; [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 22 F:\Program\wamp\www\WebExamSystem1\Application\Admin\Controller\ProblemController.class.php 第 190 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `ex_pjudge` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `ex_preadcode` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `ex_pcode` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `ex_pwcode` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ex_pselect`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2017-06-07T14:49:44+08:00 ] ::1 /WebExamSystem1/index.php/Admin/Problem/select/pageNum/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 1  [ RunTime:0.0002s ]
+SQL: select a.id,b.cName as subName,c.cName as capName,a.tTitle from ex_pselect as a,ex_subject as b, ex_chapter as c where a.iSubid = b.id and a.iChaid = c.id; [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `ex_pjudge` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `ex_preadcode` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `ex_pcode` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `ex_pwcode` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ex_pselect`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019865s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2017-06-07T14:49:47+08:00 ] ::1 /WebExamSystem1/index.php/Admin/Problem/blank.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 1  [ RunTime:0.0002s ]
+SQL: select a.id,b.cName as subName,c.cName as capName,a.tTitle from ex_pfillblank as a,ex_subject as b, ex_chapter as c where a.iSubid = b.id and a.iChaid = c.id; [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 2 F:\Program\wamp\www\WebExamSystem1\Application\Admin\Controller\ProblemController.class.php 第 262 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `ex_pjudge` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ex_preadcode` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ex_pcode` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `ex_pwcode` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ex_pfillblank`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2017-06-07T14:49:49+08:00 ] ::1 /WebExamSystem1/index.php/Admin/Problem/judge.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 1  [ RunTime:0.0002s ]
+SQL: select a.id,b.cName as subName,c.cName as capName,a.tTitle from ex_pjudge as a,ex_subject as b, ex_chapter as c where a.iSubid = b.id and a.iChaid = c.id; [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 5 F:\Program\wamp\www\WebExamSystem1\Application\Admin\Controller\ProblemController.class.php 第 318 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `ex_pjudge` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `ex_preadcode` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `ex_pcode` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `ex_pwcode` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `ex_pjudge`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2017-06-07T14:49:50+08:00 ] ::1 /WebExamSystem1/index.php/Admin/Problem/readCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 1  [ RunTime:0.0002s ]
+SQL: select a.id,b.cName as subName,c.cName as capName,a.tTitle from ex_preadcode as a,ex_subject as b, ex_chapter as c where a.iSubid = b.id and a.iChaid = c.id; [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 2 F:\Program\wamp\www\WebExamSystem1\Application\Admin\Controller\ProblemController.class.php 第 374 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `ex_pjudge` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `ex_preadcode` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `ex_pcode` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `ex_pwcode` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ex_preadcode`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2017-06-07T14:49:51+08:00 ] ::1 /WebExamSystem1/index.php/Admin/Problem/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 1  [ RunTime:0.0002s ]
+SQL: select a.id,b.cName as subName,c.cName as capName,a.tTitle from ex_pcode as a,ex_subject as b, ex_chapter as c where a.iSubid = b.id and a.iChaid = c.id; [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 2 F:\Program\wamp\www\WebExamSystem1\Application\Admin\Controller\ProblemController.class.php 第 430 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `ex_pjudge` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `ex_preadcode` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `ex_pcode` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `ex_pwcode` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `ex_pcode`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2017-06-07T14:49:52+08:00 ] ::1 /WebExamSystem1/index.php/Admin/Problem/wCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 1  [ RunTime:0.0002s ]
+SQL: select a.id,b.cName as subName,c.cName as capName,a.tTitle from ex_pwcode as a,ex_subject as b, ex_chapter as c where a.iSubid = b.id and a.iChaid = c.id; [ RunTime:0.0050s ]
+NOTIC: [8] Undefined offset: 1 F:\Program\wamp\www\WebExamSystem1\Application\Admin\Controller\ProblemController.class.php 第 487 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `ex_pjudge` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `ex_preadcode` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `ex_pcode` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `ex_pwcode` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `ex_pwcode`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000693s ]
+
+[ 2017-06-07T14:50:13+08:00 ] ::1 /WebExamSystem1/index.php/Admin/Problem/wCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 1  [ RunTime:0.0002s ]
+SQL: select a.id,b.cName as subName,c.cName as capName,a.tTitle from ex_pwcode as a,ex_subject as b, ex_chapter as c where a.iSubid = b.id and a.iChaid = c.id; [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 F:\Program\wamp\www\WebExamSystem1\Application\Admin\Controller\ProblemController.class.php 第 487 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `ex_pjudge` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `ex_preadcode` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ex_pcode` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `ex_pwcode` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ex_pwcode`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000682s ]
+
+[ 2017-06-07T14:50:15+08:00 ] ::1 /WebExamSystem1/index.php/Admin/PaperTem/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ex_paptemplate` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `ex_paptemplate`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `ex_subject` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `ex_subject` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ex_subject`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022482s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2017-06-07T14:50:18+08:00 ] ::1 /WebExamSystem1/index.php/Admin/Paper/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 1  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined variable: list F:\Program\wamp\www\WebExamSystem1\Application\Runtime\Cache\Admin\c6472f9944fc0fa6165b0334a436d1fa.php 第 105 行.
+NOTIC: [8] Undefined variable: nowpage F:\Program\wamp\www\WebExamSystem1\Application\Runtime\Cache\Admin\c6472f9944fc0fa6165b0334a436d1fa.php 第 127 行.
+NOTIC: [8] Undefined variable: total F:\Program\wamp\www\WebExamSystem1\Application\Runtime\Cache\Admin\c6472f9944fc0fa6165b0334a436d1fa.php 第 130 行.
+NOTIC: [8] Undefined variable: nowpage F:\Program\wamp\www\WebExamSystem1\Application\Runtime\Cache\Admin\c6472f9944fc0fa6165b0334a436d1fa.php 第 130 行.
+NOTIC: [8] Undefined variable: total F:\Program\wamp\www\WebExamSystem1\Application\Runtime\Cache\Admin\c6472f9944fc0fa6165b0334a436d1fa.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2017-06-07T15:10:09+08:00 ] ::1 /WebExamSystem1/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `ex_pjudge` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `ex_preadcode` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `ex_pcode` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `ex_pwcode` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ex_pselect`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ex_pfillblank`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ex_pjudge`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ex_preadcode`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ex_pcode`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: subjects F:\Program\wamp\www\WebExamSystem1\Application\Admin\Controller\IndexController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2017-06-07T18:31:50+08:00 ] ::1 /WebExamSystem1/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `ex_pjudge` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `ex_preadcode` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `ex_pcode` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `ex_pwcode` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ex_pselect`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ex_pfillblank`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ex_pjudge`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ex_preadcode`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ex_pcode`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: subjects F:\Program\wamp\www\WebExamSystem1\Application\Admin\Controller\IndexController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+

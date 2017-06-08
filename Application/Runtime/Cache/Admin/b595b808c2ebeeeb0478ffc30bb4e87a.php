@@ -20,8 +20,8 @@
   </head>
   <body>
     
-    <nav class="navbar navbar-inverse ">
-    <div class="container-fluid">
+    <nav class="navbar navbar-inverse navbar-fixed-top" >
+    <div class="container-fluid" >
         <div class="navbar-header" style="width:100%;">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
@@ -35,7 +35,7 @@
     </div>
 </nav>
     <span class="nowpage" style="display:none;">0</span>
-    <div class="container-fluid">
+    <div class="container-fluid" style="padding-top:71px;">
         <div class="row">
             <div class="col-md-2 sidebar   ">
                 <span id="leftnum" style="display:none;"><?php echo ($leftnum); ?></span>
@@ -43,7 +43,7 @@
     <li id="a0"><a href="<?php echo U('Index/index');?>">题库总览</a></li>
     <li id="a1"><a href="<?php echo U('Problem/select');?>" >题目管理</a></li>
     <li id="a2"><a href="<?php echo U('PaperTem/index');?>" >试卷模版</a></li>
-    <li id="a3"><a href="<?php echo U('Paper/auto');?>"  >组卷与分发</a></li>
+    <li id="a3"><a href="<?php echo U('Paper/index');?>"  >试卷管理</a></li>
     <li id="a4"><a href="<?php echo U('User/index');?>"  >用户管理</a></li>
     <!--<li id="a5"><a href="<?php echo U('Test/index');?>"  >测试页面</a></li>-->
 </ul>

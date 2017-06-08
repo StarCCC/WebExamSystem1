@@ -20,8 +20,8 @@
   </head>
   <body>
     
-    <nav class="navbar navbar-inverse ">
-    <div class="container-fluid">
+    <nav class="navbar navbar-inverse navbar-fixed-top" >
+    <div class="container-fluid" >
         <div class="navbar-header" style="width:100%;">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
@@ -34,7 +34,7 @@
         </div>  
     </div>
 </nav>
-    <div class="container-fluid">
+    <div class="container-fluid" style="padding-top:71px;">
         <div class="row">
             <div class="col-md-12  main">
                 <div class="center-block" style="width:325px;">

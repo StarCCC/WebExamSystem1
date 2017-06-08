@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?><img src="/WebExamSystem1/Public/assets/img/backgrounds/1.jpg" />
