@@ -43,7 +43,7 @@
     <li id="a0"><a href="<?php echo U('Index/index');?>">题库总览</a></li>
     <li id="a1"><a href="<?php echo U('Problem/select');?>" >题目管理</a></li>
     <li id="a2"><a href="<?php echo U('PaperTem/index');?>" >试卷模版</a></li>
-    <li id="a3"><a href="<?php echo U('Paper/auto');?>"  >组卷与分发</a></li>
+    <li id="a3"><a href="<?php echo U('Paper/index');?>"  >试卷管理</a></li>
     <li id="a4"><a href="<?php echo U('User/index');?>"  >用户管理</a></li>
     <!--<li id="a5"><a href="<?php echo U('Test/index');?>"  >测试页面</a></li>-->
 </ul>

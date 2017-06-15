@@ -20,6 +20,7 @@
   </head>
   <body>
     
+    <link rel="stylesheet" type="text/css" href="/WebExamSystem1/Public/css/Home/examlist.css" />
     <link rel="stylesheet" type="text/css" href="/WebExamSystem1/Public/css/header.css" />
 <div class="container-fluid" style="padding-right: 0px;padding-left: 0px;background-color:rgb(248,248,248);">
     <div class="raw" style="background-color:#f5f5f5;border:1px solid rgb(227,227,229);">
@@ -70,7 +71,29 @@
     
 </div>
     <div class="container" >
-        <img src="/WebExamSystem1/Public/img/Home/index_bg.jpg" width="1140"  alt="首页图片" />
+        <div class="raw">
+            <div class="col-md-12">
+                <p style="font-size:18px;line-height:18px;margin:10px 0px;">您的位置：<a href="<?php echo U('Index/index');?>">首页</a>&nbsp>&nbsp正式考试</p>
+            </div>
+        </div>
+        <div class="raw">
+            <div class="col-md-12" style="padding-left:0px;padding-right:0px;min-height:400px;">
+                <table class="table" >
+                    <tbody>
+                        <tr class="lh">
+                            <td style="text-align:left;font-size:18px;line-height:40px;font-family:'黑体';">试卷标题▼</td>
+                            <td style="text-align:right;font-size:18px;line-height:40px;padding-right:20px;font-family:'黑体';">进入考试▼</td>
+                        </tr>
+                        <?php if(is_array($list)): foreach($list as $key=>$vo): ?><tr>
+                        <td style="border-top: 0px solid transparent;border-bottom:1px solid rgb(227,227,229);"><p style="font-size:16px;line-height:16px;margin:10px 0px;"><?php echo ($vo['cpapname']); ?></p></td>
+                        <td style="border-top: 0px solid transparent;border-bottom:1px solid rgb(227,227,229);">
+                            <button class="btn btn-primary pull-right" type="button" onclick="location.href = '<?php echo U('Index/enterExam',array('id'=>$vo['id']));?>'">进入考试</button>
+                        </td>
+                        </tr><?php endforeach; endif; ?>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
 
     <div class="container-fluid" style="padding-right: 0px;padding-left: 0px;">

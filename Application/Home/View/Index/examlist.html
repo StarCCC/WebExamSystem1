@@ -1,0 +1,39 @@
+<extend name="Public:layout" />
+<block name="body">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/Home/examlist.css" />
+    <include file="Public:header" />
+    <div class="container" >
+        <div class="raw">
+            <div class="col-md-12">
+                <p style="font-size:18px;line-height:18px;margin:10px 0px;">您的位置：<a href="{:U('Index/index')}">首页</a>&nbsp>&nbsp正式考试</p>
+            </div>
+        </div>
+        <div class="raw">
+            <div class="col-md-12" style="padding-left:0px;padding-right:0px;min-height:400px;">
+                <table class="table" >
+                    <tbody>
+                        <tr class="lh">
+                            <td style="text-align:left;font-size:18px;line-height:40px;font-family:'黑体';">试卷标题▼</td>
+                            <td style="text-align:right;font-size:18px;line-height:40px;padding-right:20px;font-family:'黑体';">进入考试▼</td>
+                        </tr>
+                        <foreach name="list" item="vo">
+                        <tr>
+                        <td style="border-top: 0px solid transparent;border-bottom:1px solid rgb(227,227,229);"><p style="font-size:16px;line-height:16px;margin:10px 0px;">{$vo['cpapname']}</p></td>
+                        <td style="border-top: 0px solid transparent;border-bottom:1px solid rgb(227,227,229);">
+                            <button class="btn btn-primary pull-right" type="button" onclick="location.href = '{:U('Index/enterExam',array('id'=>$vo['id']))}'">进入考试</button>
+                        </td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <include file="Public:footer" />
+</block>
+
+<block name="js">
+    
+
+</block>

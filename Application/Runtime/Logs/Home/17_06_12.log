@@ -1,0 +1,1688 @@
+[ 2017-06-12T19:47:57+08:00 ] ::1 /WebExamSystem1/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+NOTIC: [2048] Declaration of Home\Controller\LoginController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\LoginController.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.024872s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.025055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2017-06-12T19:50:15+08:00 ] ::1 /WebExamSystem1/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+NOTIC: [2048] Declaration of Home\Controller\LoginController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\LoginController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0739s ]
+SQL: SELECT * FROM `ex_user` WHERE `cUser` = '2013040802017'  [ RunTime:0.0258s ]
+SQL: SELECT * FROM `ex_user` WHERE `cUser` = '2013040802017'  [ RunTime:0.0004s ]
+
+[ 2017-06-12T19:50:17+08:00 ] ::1 /WebExamSystem1/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 2  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2017-06-12T21:03:33+08:00 ] ::1 /WebExamSystem1/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 2  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000930s ]
+
+[ 2017-06-12T21:03:44+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001235s ]
+
+[ 2017-06-12T21:03:45+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPaper
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0004s ]
+
+[ 2017-06-12T21:03:45+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001917s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ex_papproblem` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `ex_papproblem` WHERE `iPapid` = 1  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:03:45+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 12  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:04:33+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 2  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001162s ]
+
+[ 2017-06-12T21:04:33+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPaper
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:04:33+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ex_papproblem` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `ex_papproblem` WHERE `iPapid` = 1  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:04:34+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 12  [ RunTime:0.0004s ]
+
+[ 2017-06-12T21:04:38+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 15  [ RunTime:0.0005s ]
+
+[ 2017-06-12T21:04:40+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 16  [ RunTime:0.0004s ]
+
+[ 2017-06-12T21:04:41+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 23  [ RunTime:0.0004s ]
+
+[ 2017-06-12T21:04:46+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 26  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:04:48+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001398s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `ex_pfillblank` WHERE `id` = 4  [ RunTime:0.0010s ]
+
+[ 2017-06-12T21:05:52+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 26  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:05:57+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 23  [ RunTime:0.0004s ]
+
+[ 2017-06-12T21:07:19+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2017-06-12T21:07:20+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPaper
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002047s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0004s ]
+
+[ 2017-06-12T21:07:20+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ex_papproblem` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `ex_papproblem` WHERE `iPapid` = 1  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:07:20+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 12  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:09:00+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2017-06-12T21:09:00+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPaper
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:09:00+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ex_papproblem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ex_papproblem` WHERE `iPapid` = 1  [ RunTime:0.0004s ]
+
+[ 2017-06-12T21:09:00+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 12  [ RunTime:0.0004s ]
+
+[ 2017-06-12T21:09:14+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 15  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:09:16+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 12  [ RunTime:0.0008s ]
+
+[ 2017-06-12T21:09:21+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001473s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 15  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:09:24+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 16  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:09:25+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 23  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:09:27+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 12  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:09:44+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 26  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:09:45+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ex_pfillblank` WHERE `id` = 4  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:09:47+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ex_pfillblank` WHERE `id` = 5  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:09:48+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ex_pfillblank` WHERE `id` = 4  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:35:04+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2017-06-12T21:35:04+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPaper
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:35:04+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ex_papproblem` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ex_papproblem` WHERE `iPapid` = 1  [ RunTime:0.0005s ]
+
+[ 2017-06-12T21:35:04+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 12  [ RunTime:0.0004s ]
+
+[ 2017-06-12T21:35:11+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 15  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:35:12+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 12  [ RunTime:0.0005s ]
+
+[ 2017-06-12T21:35:15+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 15  [ RunTime:0.0004s ]
+
+[ 2017-06-12T21:35:17+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 16  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:35:20+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 23  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:35:22+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 26  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:35:23+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ex_pfillblank` WHERE `id` = 4  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:35:27+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001557s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `ex_pfillblank` WHERE `id` = 5  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:35:29+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `ex_pfillblank` WHERE `id` = 4  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:35:41+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ex_pfillblank` WHERE `id` = 5  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:35:42+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ex_pfillblank` WHERE `id` = 4  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:40:50+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000373s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000883s ]
+
+[ 2017-06-12T21:40:50+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPaper
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0004s ]
+
+[ 2017-06-12T21:40:50+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ex_papproblem` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `ex_papproblem` WHERE `iPapid` = 1  [ RunTime:0.0005s ]
+
+[ 2017-06-12T21:40:50+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 12  [ RunTime:0.0006s ]
+
+[ 2017-06-12T21:40:56+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 26  [ RunTime:0.0004s ]
+
+[ 2017-06-12T21:40:59+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pjudge` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `ex_pjudge` WHERE `id` = 5  [ RunTime:0.0004s ]
+
+[ 2017-06-12T21:41:01+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ex_pfillblank` WHERE `id` = 5  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:44:36+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001183s ]
+
+[ 2017-06-12T21:44:36+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ex_papproblem` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `ex_papproblem` WHERE `iPapid` = 1  [ RunTime:0.0005s ]
+
+[ 2017-06-12T21:44:36+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPaper
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0004s ]
+
+[ 2017-06-12T21:44:36+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 12  [ RunTime:0.0004s ]
+
+[ 2017-06-12T21:44:39+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000235s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pjudge` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `ex_pjudge` WHERE `id` = 3  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:44:40+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ex_pfillblank` WHERE `id` = 4  [ RunTime:0.0004s ]
+
+[ 2017-06-12T21:50:45+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2017-06-12T21:50:46+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002097s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ex_papproblem` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `ex_papproblem` WHERE `iPapid` = 1  [ RunTime:0.0005s ]
+
+[ 2017-06-12T21:50:46+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPaper
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002131s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0004s ]
+
+[ 2017-06-12T21:50:46+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 12  [ RunTime:0.0004s ]
+
+[ 2017-06-12T21:50:48+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ex_pfillblank` WHERE `id` = 4  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:51:33+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 2  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001050s ]
+
+[ 2017-06-12T21:51:33+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ex_papproblem` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `ex_papproblem` WHERE `iPapid` = 1  [ RunTime:0.0004s ]
+
+[ 2017-06-12T21:51:33+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPaper
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0004s ]
+
+[ 2017-06-12T21:51:33+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000181s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 12  [ RunTime:0.0004s ]
+
+[ 2017-06-12T21:51:40+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001552s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `ex_pfillblank` WHERE `id` = 4  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:51:46+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `ex_pfillblank` WHERE `id` = 4  [ RunTime:0.0004s ]
+
+[ 2017-06-12T21:51:53+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ex_pfillblank` WHERE `id` = 5  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:51:54+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ex_pfillblank` WHERE `id` = 4  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:51:55+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `ex_pfillblank` WHERE `id` = 5  [ RunTime:0.0004s ]
+
+[ 2017-06-12T21:51:56+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ex_pfillblank` WHERE `id` = 4  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:51:59+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 12  [ RunTime:0.0003s ]
+
+[ 2017-06-12T21:52:02+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 12  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:04:20+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 15  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:04:26+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 16  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:04:31+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pwcode` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ex_pwcode` WHERE `id` = 1  [ RunTime:0.0004s ]
+
+[ 2017-06-12T22:04:35+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_preadcode` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ex_preadcode` WHERE `id` = 2  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:04:38+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pjudge` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `ex_pjudge` WHERE `id` = 5  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:04:39+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pjudge` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ex_pjudge` WHERE `id` = 3  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:04:40+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `ex_pfillblank` WHERE `id` = 5  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:04:41+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ex_pfillblank` WHERE `id` = 4  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:04:43+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 26  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:04:45+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 23  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:04:45+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 16  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:04:45+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 15  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:04:45+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 12  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:06:19+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 15  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:06:20+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 12  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:08:48+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 2  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2017-06-12T22:08:48+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPaper
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0004s ]
+
+[ 2017-06-12T22:08:48+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ex_papproblem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ex_papproblem` WHERE `iPapid` = 1  [ RunTime:0.0004s ]
+
+[ 2017-06-12T22:08:49+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 12  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:09:30+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2017-06-12T22:09:30+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPaper
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001777s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:09:30+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ex_papproblem` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `ex_papproblem` WHERE `iPapid` = 1  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:09:30+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 12  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:09:44+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001521s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 15  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:09:47+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 15  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:09:54+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 12  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:09:56+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 12  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:09:59+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 16  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:10:02+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 16  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:10:32+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2017-06-12T22:10:33+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `ex_papproblem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ex_papproblem` WHERE `iPapid` = 1  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:10:33+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPaper
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_paper` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `ex_paper` WHERE `id` = 1  [ RunTime:0.0005s ]
+
+[ 2017-06-12T22:10:33+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 12  [ RunTime:0.0004s ]
+
+[ 2017-06-12T22:10:39+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 12  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:10:46+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 15  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:10:50+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 15  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:15:24+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002030s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pfillblank` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ex_pfillblank` WHERE `id` = 5  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:15:25+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pjudge` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ex_pjudge` WHERE `id` = 3  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:15:28+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pjudge` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `ex_pjudge` WHERE `id` = 3  [ RunTime:0.0004s ]
+
+[ 2017-06-12T22:15:31+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pjudge` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `ex_pjudge` WHERE `id` = 5  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:15:34+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pjudge` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ex_pjudge` WHERE `id` = 5  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:15:37+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_preadcode` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ex_preadcode` WHERE `id` = 2  [ RunTime:0.0004s ]
+
+[ 2017-06-12T22:15:42+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_preadcode` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `ex_preadcode` WHERE `id` = 2  [ RunTime:0.0004s ]
+
+[ 2017-06-12T22:24:56+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001574s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 12  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:24:57+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 23  [ RunTime:0.0006s ]
+
+[ 2017-06-12T22:24:57+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pselect` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `ex_pselect` WHERE `id` = 26  [ RunTime:0.0004s ]
+
+[ 2017-06-12T22:24:58+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pjudge` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ex_pjudge` WHERE `id` = 3  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:24:58+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pjudge` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `ex_pjudge` WHERE `id` = 5  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:24:59+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pcode` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ex_pcode` WHERE `id` = 1  [ RunTime:0.0003s ]
+
+[ 2017-06-12T22:25:00+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_pjudge` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `ex_pjudge` WHERE `id` = 3  [ RunTime:0.0004s ]
+
+[ 2017-06-12T22:25:00+08:00 ] ::1 /WebExamSystem1/index.php/Home/Exam/getPrb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+NOTIC: [2048] Declaration of Home\Controller\ExamController::index() should be compatible with Home\Controller\BaseController::index() F:\Program\wamp\www\WebExamSystem1\Application\Home\Controller\ExamController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ex_preadcode` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `ex_preadcode` WHERE `id` = 2  [ RunTime:0.0003s ]
+

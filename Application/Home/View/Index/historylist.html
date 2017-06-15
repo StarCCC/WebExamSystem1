@@ -1,0 +1,38 @@
+<extend name="Public:layout" />
+<block name="body">
+    <include file="Public:header" />
+    <div class="container" style="min-height:425px;">
+        <div class="raw">
+            <div class="col-md-12">
+                <p style="font-size:18px;line-height:18px;margin:10px 0px;">您的位置：<a href="{:U('Index/index')}">首页</a>&nbsp>&nbsp历史考试记录</p>
+            </div>
+        </div>
+        <div class="raw">
+            <div class="col-md-12">
+                <table class="table ">
+                    <tr>
+                        <th>试卷名称</th>
+                        <th>考试类型</th>
+                        <th>考试日期</th>
+                        <th>查看详情</th>
+                    </tr>
+                    <foreach name="list" item="vo">
+                        <tr>
+                            <td>{$vo["cpapname"]}</td>
+                            <td>{$vo["itesttype"]|getpapertype}</td>
+                            <td>{$vo["dtesdate"]}</td>
+                            <td><a href="{:U('Index/historypaper',array('id'=>$vo['id']))}">查看详情</a></td>
+                        </tr>
+                    </foreach>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <include file="Public:footer" />
+</block>
+
+<block name="js">
+    
+
+</block>

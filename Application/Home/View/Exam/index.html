@@ -1,0 +1,125 @@
+<extend name="Public:layout" />
+<block name="body">
+    <link rel="stylesheet" href="__PUBLIC__/css/Home/exampage.css">
+    <div class="container-fluid" style="padding-right: 0px;padding-left: 0px;">
+        <div class="raw navbar-fixed-top">
+            <div class="col-md-12 header">
+                <div class="container">
+                    <div class="raw">
+                        <div class="col-md-12">
+                            <table>
+                                <tr>
+                                    <td><img height="85" src="__PUBLIC__/img/Home/logo1.png" alt="logo" /></td>
+                                    <td>
+                                        <div class="bb">
+                                            <table>
+                                                <tr>
+                                                    <td style="width:60px;padding-right:10px;"><img src="__PUBLIC__/img/Home/timer.png" alt="logo" /></td>
+                                                    <td style="width:100px;border-right:1px solid white;">
+                                                        <p class="f16" style="color:#00a084;">剩余时间</p>
+                                                        <p class="f16" id="stime" style="font-family:'黑体';">00:00</p>
+                                                    </td>
+                                                    <td style="width:100px;padding-left:20px;padding-right:20px;">
+                                                        <div class="pp">
+                                                            <p class="f16">第<span class="prbno" id="prbno" style="color:red;"></span>题</p>
+                                                            <p class="f16">共<span class="prbs" style="color:red;"></span>题</p>
+                                                            <p class="f16">剩<span id="prbr" style="color:red;"></span>题</p>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            
+                                        </div>
+                                    </td>
+                                    <td style="padding-left:200px;"><p class="f16">{$user['welcome']}</p></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="raw">
+            <div class="col-md-12 body">
+                <div class="container">
+                    <div class="raw">
+                        <div class="col-md-12">
+                            <table style="width:1140px;height:200px;margin-top:170px;border:1px solid #d6d6d6;">
+                                <tr style="">
+                                    <td class="title">
+                                        <p id="papert">试卷标题</p><p id="paperid" style="display:none">{$paperid}</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        
+                                        <div class="panel panel-default" style="margin:20px 200px;">
+                                            <p style="position:absolute;top:253px;left:240px;color:#666666">试卷信息</p>
+                                            <div class="panel-body" >
+                                                <div style="display:block;margin:20px 0px;">
+                                                <span class="f16" id="ptime" style="margin-right:150px;">考试时间:</span>
+                                                <span class="f16" id="pscore" style="margin-right:150px;">总分:</span>
+                                                <span class="f16" id="prbs">总题数:</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div style="margin:0px 20px">
+                                            <div class="pt" id="prbtype" ></div>
+                                            <div class="pn">第<span class="prbno" style="color:red"></span>题</div>
+                                            <div style="display:block;padding:10px 0px;">
+                                                <div class="ptt"></div>
+                                            </div>
+                                            <div id="sel" style="display:none;padding:10px 10px;margin:0px 20px;">
+                                                <div class="sel-item radio"><input type="radio" name="selr" value="0"/><span id="itema"></span></div>
+                                                <div class="sel-item radio"><input type="radio" name="selr" value="1"/><span id="itemb"></span></div>
+                                                <div class="sel-item radio"><input type="radio" name="selr" value="2"/><span id="itemc"></span></div>
+                                                <div class="sel-item radio"><input type="radio" name="selr" value="3"/><span id="itemd"></span></div>
+                                            </div>
+                                            <div id="jud" style="display:none;padding:10px 10px;margin:0px 20px;">
+                                                <div class="sel-item radio"><input type="radio" name="judr" value="1"/><span id="dui">✔</span></div>
+                                                <div class="sel-item radio"><input type="radio" name="judr" value="0"/><span id="cuo">✖</span></div>
+                                            </div>
+                                            <div id="cod" style="display:none;padding:10px 10px;">
+                                                <div class="bl">答案1:<input type="text" class="form-control ans1"  /></div>
+                                                <div class="bl">答案2:<input type="text" class="form-control ans2" /></div>
+                                            </div>
+                                            <div id="fil" style="display:none;padding:10px 10px;">
+                                                <div class="bl">答案:<input type="text" class="form-control ans" /></div>
+                                            </div>
+                                            <div style="display:block;padding:10px 10px;">
+                                                <button class="btn btn-primary pull-right" onclick="getAnswer($('#prbno').text());">确认作答</button>
+                                            </div>
+                                            <ul class="pagination">
+                                                <li><a href="javascrip:void(0);"  onclick="lastPrb();">上一题</a></li>
+                                                <for start="1" end="$count">
+                                                    <li id="pp{$i}"><a href="javascrip:void(0);"  onclick="showPrbInfo({$i});">{$i}</a></li>
+                                                </for>
+                                                <li><a href="javascrip:void(0);" onclick="nextPrb();">下一题</a></li>
+                                            </ul>
+                                            <div style="display:block;padding:10px 10px;height:8px;background:url(__PUBLIC__/img/Home/line.png) repeat-x;"></div>
+                                            <div style="display:block;padding:40px 10px;text-align:center;">
+                                                <button class="btn btn-warning btn-lg" onclick="submitPaper();" ><span class="glyphicon glyphicon-ok"></span>&nbsp我要交卷</button>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <include file="Public:footer" />
+</block>
+
+<block name="js">
+    <script src="__PUBLIC__/js/Home/exam.js"></script>
+
+</block>

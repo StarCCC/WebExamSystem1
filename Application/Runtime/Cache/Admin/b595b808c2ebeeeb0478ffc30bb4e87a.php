@@ -76,10 +76,12 @@
                                 </div>
                                 <div class="panel-body">
                                     <div class="center-block" style="text-align:center;">
-                                        <?php if(is_array($subjects)): foreach($subjects as $key=>$sub): ?><p><?php echo ($key); ?>、 <span><?php echo ((isset($sub['name'] ) && ($sub['name'] !== ""))?($sub['name'] ): 无名称); ?></span>
+                                            <!--<p><?php echo ($key); ?>、 <span><?php echo ((isset($sub['name'] ) && ($sub['name'] !== ""))?($sub['name'] ): 无名称); ?></span>
                                             ，本科目共有<span><?php echo ((isset($sub['temNum'] ) && ($sub['temNum'] !== ""))?($sub['temNum'] ): 0); ?></span>
                                             个模版
-                                            </p><?php endforeach; endif; ?>
+                                            </p>-->
+                                            <p>VB程序设计科目共有 1 个模版，31道题。</p>
+                                            <p>C++程序设计科目共有 0 个模版，2道题。</p>
                                     </div>
                                 </div>
                             </div>

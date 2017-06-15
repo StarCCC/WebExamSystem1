@@ -1,1 +1,114 @@
-�=�I<3/D)3:D93!D?3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3ND3tD36D)36D)36D)3De3*Dc3vDf3*Dg3,D73-D`3yD43wDf3{D03}Dg3vD53/Db3{D73vDi3vD73|D23yD`3zDd3wDc3yDg3{Da3{D|3xDe3~D|3}Dg3~D|3xDa3~D|3&Dc3xDe3`D<3>De3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3NDQ3
+<extend name="Public:layout" />
+<block name="body">
+    <span class="nowpage" style="display:none;">1</span>
+    <include file="Public:header" />
+    <div class="container-fluid" style="padding-top:71px;">
+        <div class="row">
+            <div class="col-md-2 sidebar   ">
+                <include file="Public:left" />
+            </div>
+            <div class="col-md-10 col-md-offset-2 main">
+                <div class="container">
+                    <div class="blank" style="height:30px;" ></div>
+                    <div class="raw">
+                        <div class="col-md-4 no-padding">
+                            <form class="bs-example bs-example-form" role="form">
+                                <div class="form-group">
+                                    <div class="input-group ">
+                                        <span class="input-group-addon">搜索:</span>
+                                        <input type="text" class="form-control" placeholder="请输入关键字..." id="search">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-8 no-padding">
+                            <div class="btn-group pull-right">
+                                <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#addModal">
+                                    <span class="glyphicon glyphicon-plus" style="color: rgb(255, 255, 255);"></span>新增
+                                </button>
+                                <button type="button" class="btn btn-default">批量删除</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="raw">
+                        <table class="table table-hover table-striped">
+                            <caption></caption>
+                            <thead>
+                                <tr>
+                                <th><input type="checkbox" name="total" /> </th>
+                                <th>编号</th>
+                                <th>学号</th>
+                                <th>是否启用</th>
+                                <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <foreach name="list" item="vo"  >
+                                <tr>
+                                <td><input type="checkbox" name="{$vo['id']}" /> </td>
+                                <td>{$vo['id']}</td>
+                                <td>{$vo['cuser']}</td>
+                                <td>{$vo['benable']|enable}</td>
+                                <td>
+                                    <ul class="list-inline">
+                                    <li><a href="{:U('User/editPassword',array('id'=>$vo['id'],'op'=>1))}">修改密码</a></li>
+                                    <li><a href="{:U('User/delete',array('id'=>$vo['id']))}">删除</a></li>
+                                    </ul>
+                                </td>
+                                </tr>
+                                </foreach>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="blank" style="height:20px;" ></div>
+                    <div class="raw">
+                        <button type="button" class="btn btn-warning" onclick="location.href='{:U('User/index',array('pageNum'=>1))}'">首&nbsp&nbsp页</button>
+                        <if condition="$nowpage gt 1">
+                        <button type="button" class="btn btn-warning" onclick="location.href='{:U('User/index',array('pageNum'=>$nowpage-1))}'">上一页</button>
+                        <else />
+                        <button type="button" class="btn btn-warning" disabled="disabled">上一页</button>
+                        </if>
+                        <if condition="$nowpage lt $total">
+                        <button type="button" class="btn btn-warning" onclick="location.href='{:U('User/index',array('pageNum'=>$nowpage+1))}'">下一页</button>
+                        <else />
+                        <button type="button" class="btn btn-warning" disabled="disabled">下一页</button>
+                        </if>
+                        <button type="button" class="btn btn-warning" onclick="location.href='{:U('User/index',array('pageNum'=>$total))}'">末&nbsp&nbsp页</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 模态框（Modal） -->
+        <div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="myModalLabel">添加学生</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form class="form-horizontal" role="form" id="addform" action="{:U('User/addUser')}" method="post">
+                            <div class="form-group">
+                                <label for="number" class="col-sm-2 control-label">学号</label>
+                                <div class="col-sm-10">
+                                <input type="text" class="form-control" id="number" name="number" placeholder="请输入学号">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                        <button type="submit" class="btn btn-primary" form="addform">确认添加</button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal -->
+        </div>
+    </div> <!-- /container -->
+
+
+</block>
+    
+<block name="js">
+    <script>
+    </script>
+</block>

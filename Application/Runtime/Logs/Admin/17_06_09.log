@@ -797,3 +797,34 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000815s ]
 
+[ 2017-06-09T22:52:17+08:00 ] ::1 /WebExamSystem1/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `ex_user` [ RunTime:0.0482s ]
+SQL: SELECT * FROM `ex_user` WHERE `id` = null  [ RunTime:0.0072s ]
+
+[ 2017-06-09T22:52:18+08:00 ] ::1 /WebExamSystem1/index.php/Admin/Login/error.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+NOTIC: [2048] Declaration of Admin\Controller\LoginController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\Program\wamp\www\WebExamSystem1\Application\Admin\Controller\LoginController.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008168s ]
+

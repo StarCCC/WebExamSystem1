@@ -22,3 +22,10 @@ function formatStr($s){
     $s = nl2br($s);
     return $s;
 }
+
+function enable($e){
+    if($e == 1){
+        return "是";
+    }
+    return "否";
+}

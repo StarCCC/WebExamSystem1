@@ -69,8 +69,30 @@
     </div>
     
 </div>
-    <div class="container" >
-        <img src="/WebExamSystem1/Public/img/Home/index_bg.jpg" width="1140"  alt="首页图片" />
+    <div class="container" style="min-height:425px;">
+        <div class="raw">
+            <div class="col-md-12">
+                <p style="font-size:18px;line-height:18px;margin:10px 0px;">您的位置：<a href="<?php echo U('Index/index');?>">首页</a>&nbsp>&nbsp历史考试记录</p>
+            </div>
+        </div>
+        <div class="raw">
+            <div class="col-md-12">
+                <table class="table ">
+                    <tr>
+                        <th>试卷名称</th>
+                        <th>考试类型</th>
+                        <th>考试日期</th>
+                        <th>查看详情</th>
+                    </tr>
+                    <?php if(is_array($list)): foreach($list as $key=>$vo): ?><tr>
+                            <td><?php echo ($vo["cpapname"]); ?></td>
+                            <td><?php echo (getpapertype($vo["itesttype"])); ?></td>
+                            <td><?php echo ($vo["dtesdate"]); ?></td>
+                            <td><a href="<?php echo U('Index/historypaper',array('id'=>$vo['id']));?>">查看详情</a></td>
+                        </tr><?php endforeach; endif; ?>
+                </table>
+            </div>
+        </div>
     </div>
 
     <div class="container-fluid" style="padding-right: 0px;padding-left: 0px;">

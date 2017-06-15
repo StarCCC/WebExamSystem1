@@ -57,7 +57,34 @@ class ProblemModel {
     }
 
     //下面是业务逻辑
-    
+    //根据题型和id查找题目信息
+    public function getPrbByTypeAndId($type,$id){
+        switch($type) {
+        case 1:
+            $P = M('Pselect');
+            break;
+        case 2:
+            $P = M('Pfillblank');
+            break;
+        case 3:
+            $P = M('Pjudge');
+            break;
+        case 4:
+            $P = M('Preadcode');
+            break;
+        case 5:
+            $P = M('Pcode');
+            break;
+        case 6:
+            $P = M('Pwcode');
+            break;
+        default:
+            $P = null;
+            break;
+        }
+        $res = $P->where(array("id"=>$id))->select()[0];
+        return $res;
+    }
     //查找某题型题目数量
     public function getCountByType($type){
         $PSelect = M('Pselect');
@@ -155,7 +182,7 @@ class ProblemModel {
             return $res[0];
         }
     }
-    //根据id查询判阅读程序题
+    //根据id查询阅读程序题
     public function getReaPrbById($id){
         $res = M('Preadcode')->where(array('id'=>$id))->select();
         if (!empty($res)) {

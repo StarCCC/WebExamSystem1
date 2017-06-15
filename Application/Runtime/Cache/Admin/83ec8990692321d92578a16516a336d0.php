@@ -53,11 +53,11 @@
                     <div class="raw">
                         <ul class="nav nav-tabs">
                             <li><a href="<?php echo U("Problem/select");?>">选择题</a></li>
-                            <li><a href="<?php echo U("Problem/blank");?>">填空题</a></li>
-                            <li class="active"><a href="<?php echo U("Problem/judge");?>">判断题</a></li>
+                            <li class="active"><a href="<?php echo U("Problem/blank");?>">填空题</a></li>
+                            <li><a href="<?php echo U("Problem/judge");?>">判断题</a></li>
                             <li><a href="<?php echo U("Problem/readCode");?>">程序阅读题</a></li>
                             <li><a href="<?php echo U("Problem/code");?>">代码补全题</a></li>
-                            <li><a href="<?php echo U("Problem/codeWrite");?>">编写程序题</a></li>
+                            <li><a href="<?php echo U("Problem/wCode");?>">编写程序题</a></li>
                         </ul>
                     </div>
                     <div class="blank" style="height:30px;" ></div>
@@ -75,7 +75,7 @@
                                             <tr><td>科目</td><td><?php echo ($prb['subName']); ?></td></tr>
                                             <tr><td>章节</td><td><?php echo ($prb['chaName']); ?></td></tr>
                                             <tr><td>题目</td><td><?php echo ($prb['ttitle']); ?></td></tr>
-                                            <tr><td>正确答案</td><td><?php echo ($prb['bcorrect']); ?></td></tr>
+                                            <tr><td>正确答案</td><td><?php echo ($prb['ccorrect']); ?></td></tr>
                                             <tr><td>解析</td><td><?php echo ($prb['ckey']); ?></td></tr>
                                         </tbody>
                                         </table>
@@ -85,7 +85,7 @@
                         </div>
                         <div class="raw">
                             <div class="col-md-8 col-md-offset-2">
-                                <button type="button" class="btn btn-warning" onclick="location.href='<?php echo U("Problem/judge");?>'">返回</button>
+                                <button type="button" class="btn btn-warning" onclick="location.href='<?php echo U("Problem/blank");?>'">返回</button>
                             </div>
                         </div>
                     <?php else: ?>
@@ -98,7 +98,7 @@
                                         </h3>
                                     </div>
                                     <div class="panel-body">
-                                        <form class="form-horizontal" role="form" id="thisform" action="<?php echo U('Problem/setJudge',array('id'=>$prb['id']));?>" method="POST">
+                                        <form class="form-horizontal" role="form" id="thisform" action="<?php echo U('Problem/setBlank',array('id'=>$prb['id']));?>" method="POST">
                                             <div class="form-group">
                                                 <label class="col-md-2 control-label">编号</label>
                                                 <div class="col-md-10">
@@ -116,10 +116,7 @@
                                             <div class="form-group">
                                                 <label class="col-md-2 control-label">正确答案</label>
                                                 <div class="col-md-10">
-                                                    <select class="form-control" name="correct">
-                                                        <option value="0">错</option>
-                                                        <option value="1">对</option>
-                                                    </select>
+                                                    <input type="text" name="correct" value="<?php echo ($prb['ccorrect']); ?>" />
                                                 </div>
                                             </div>
                                             <div class="form-group">
@@ -136,7 +133,7 @@
                         <div class="raw">
                             <div class="col-md-8 col-md-offset-2">
                                 <button type="submit" class="btn btn-warning" form="thisform">确定</button>
-                                <button type="button" class="btn btn-warning" onclick="location.href='<?php echo U("Problem/judge");?>'">返回</button>
+                                <button type="button" class="btn btn-warning" onclick="location.href='<?php echo U("Problem/blank");?>'">返回</button>
                             </div>
                         </div><?php endif; ?>
                 </div>

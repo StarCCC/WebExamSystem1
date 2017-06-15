@@ -42,5 +42,9 @@
             }
         }
 
-        
+        //获取学生分页（除去管理员）
+        public function getStudentsPage(){
+            $res = $this->where(array("bManager"=>0))->select();
+            return $this->paging($res,15);
+        }
     }

@@ -116,7 +116,7 @@
                                     <ul class="list-inline">
                                     <li><a href="<?php echo U('Paper/edit',array('id'=>$vo['id']));?>">修改试卷</a></li>
                                     <li><a href="javascript:void(0);" onclick="showAddPrbModal(<?php echo ($vo['id']); ?>);">添加题目</a></li>
-                                    <?php if($vo['itesttype'] == 1): ?><li><a href="javascript:void(0);" onclick="" >分发试卷</a></li><?php endif; ?>
+                                    <?php if($vo['itesttype'] == 1): ?><li><a href="javascript:void(0);" onclick="showDistributeModal(<?php echo ($vo['id']); ?>);" >分发试卷</a></li><?php endif; ?>
                                     <li><a href="<?php echo U('Paper/delete',array('id'=>$vo['id']));?>">删除</a></li>
                                     </ul>
                                 </td>
@@ -142,6 +142,7 @@
         
     </div> <!-- /container -->
 
+    <!--新增试卷-->
     <div class="modal fade" id="addPaperModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -181,8 +182,8 @@
         </div><!-- /.modal-content -->
     </div><!-- /.modal -->
 
-        
-        <div class="modal fade" id="addPrbModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <!--添加题目-->
+    <div class="modal fade" id="addPrbModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -216,6 +217,33 @@
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
                     <button type="submit" class="btn btn-primary" form="addprbform">确认添加</button>
+                </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+
+    <!--分发试卷-->
+    <div class="modal fade" id="distributeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">分发试卷</h4>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal" id="distributeform" action="<?php echo U('Paper/distribute');?>" method="POST">
+                        <input type="text" name="id" id="fpaperid" style="display:none;" />
+                        <div class="form-group">
+                            <label for="user" class="col-sm-2 control-label">考生学号</label>
+                            <div class="col-sm-10">
+                            <input type="text" class="form-control" id="user" name="user" placeholder="请输入考生学号">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    <button type="submit" class="btn btn-primary" form="distributeform">确认</button>
                 </div>
             </div>
         </div><!-- /.modal-content -->
@@ -274,6 +302,11 @@
 
             });
             $("#addPrbModal").modal({});
+        }
+        function showDistributeModal(id){
+            $("#fpaperid").val(id);
+            
+            $("#distributeModal").modal({});
         }
     </script>
 

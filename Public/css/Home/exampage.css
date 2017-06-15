@@ -1,0 +1,68 @@
+.header{
+    height:90px;
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(#51bc23), to(#2a8b07));  
+}
+
+.body{
+    background-color: #fafcfe;
+}
+
+.f16{
+    font-size:16px;
+    line-height: 16px;
+}
+
+.bb{
+    height: 80px;
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(#fbfbfb), to(#e7e7e7));
+    border-radius:5px;
+}
+
+.title{
+    height: 60px;
+    font-size:20px;
+    font-family: '黑体';
+    line-height: 60px;
+    text-align: center;
+    color:#00a11b;
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(white), to(#e3e3e3));  
+}
+
+.pt{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    background: #f1f1f1;
+    padding-left: 10px;
+    font-family: "黑体";
+    font-size: 20px;
+
+}
+
+.pn{
+    display: block;
+    color:#0090cf;
+    height:40px;
+    line-height: 40px;
+    font-size:18px;
+    font-family: "黑体";
+    padding-left: 10px;
+}
+
+.ptt{
+    display: block;
+    line-height: 18px;
+    font-size:18px;
+    padding-left: 10px;
+    font-family: "宋体";
+}
+
+.sel-item{
+    font-size:18px;
+    font-family: "宋体";
+}
+
+.ok{
+    color:yellowgreen;
+}
+

@@ -69,8 +69,40 @@
     </div>
     
 </div>
-    <div class="container" >
-        <img src="/WebExamSystem1/Public/img/Home/index_bg.jpg" width="1140"  alt="首页图片" />
+    <div class="container" style="min-height:425px;">
+        <div class="raw">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="panel panel-success" style="margin-top:50px;">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><?php echo ($paper['cpapname']); ?></h3>
+                    </div>
+                    <div class="panel-body">
+                        <table>
+                            <tr>
+                                <td>
+                                    <div style="width:150px;height:120px;margin:0px 80px;border:1px solid #faa504;border-radius:5px;background-color:#ffce2c;">
+                                        <div style="height:75px;line-height:75px;font-size:28px;color:black;text-align:center;"><span><?php echo ($paper['iscore']); ?></span></div>
+                                        <div style="height:43px;background:white;border-radius:5px;line-height:43px;color:#d50000;text-align:center;font-size:18px;"><span>最高分:<?php echo ($paper['itotscore']); ?></span></div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <table  style="font-size:16px;color:#666666;">
+                                        <tr style="margin-bottom:20px;">
+                                            <td style="width:200px;">试卷总分:<?php echo ($paper['itotscore']); ?>分</td>
+                                            <td style="width:200px;">试卷总得分:<?php echo ($paper['iscore']); ?>分</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;">错题数:<?php echo ($paper['iwronum']); ?></td>
+                                            <td style="width:200px;"></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="container-fluid" style="padding-right: 0px;padding-left: 0px;">

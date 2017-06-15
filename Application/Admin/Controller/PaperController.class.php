@@ -24,7 +24,14 @@ class PaperController extends BaseController {
     //添加考卷的四种方式
     //直接添加试卷
     public function addPaper(){
-
+        $data['cPapName'] = I("post.name");
+        $data['iSubid'] = I("post.subid");
+        $data['iTime'] = I("post.time");
+        $data['iPapState'] = 0;
+        $data['iSurTime'] = $data['iTime'];
+        $data['iTestType'] = 1;
+        D("Paper")->add($data);
+        $this->redirect("Paper/index");
     }
 
     //从模版添加试卷
@@ -56,6 +63,17 @@ class PaperController extends BaseController {
         $totals = $totals + $data['iScore'];
         D('Paper')->where(array("id"=>$papid))->save(array("iPrbNum"=>$num,"iTotScore"=>$totals));
         M("Papproblem")->add($data);
+        $this->redirect("Paper/index");
+    }
+
+    //分发试卷
+    public function distribute(){
+        $papid = I("post.id");
+        $user = I("post.user");
+        $userid = D("User")->getIdByName($user);
+        if ($userid == null)
+            $this->error("无此学生！");
+        D('Paper')->where(array("id"=>$papid))->save(array("iUserid"=>$userid));
         $this->redirect("Paper/index");
     }
 }

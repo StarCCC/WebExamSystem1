@@ -27,4 +27,9 @@ class LoginController extends BaseController {
         }
         $this->ajaxReturn($data,"JSON");
     }
+
+    public function logout(){
+        session("QuserId",null);
+        $this->redirect("Login/index");
+    }
 }

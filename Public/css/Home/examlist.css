@@ -1,0 +1,9 @@
+.lh{
+    height:40px;
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(#ffffff), to(rgb(241, 255, 255)));  
+    border:1px solid #b2d982;
+}
+
+.table{
+    border:1px solid #b2d982;
+}
